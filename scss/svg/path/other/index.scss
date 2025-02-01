@@ -12,7 +12,7 @@
 }
 
 @each $oldpath, $newpath in discoverycheck.$pathpairs {
-	.checklistIcon_bd2368 path[d^="#{$oldpath}"] {
+	.checklistIcon__812a7 path[d^="#{$oldpath}"] {
 		d: path($newpath);
 		fill-rule: evenodd;
 	}
