@@ -3,7 +3,7 @@
 @use "./header";
 
 @each $selector, $path in header.$selectpathpairs {
-	#{$selector} .icon_e44302 path {
+	#{$selector} .icon__9293f path {
 		d: path($path);
 	}
 }
